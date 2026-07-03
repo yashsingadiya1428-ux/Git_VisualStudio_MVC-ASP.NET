@@ -16,6 +16,9 @@ namespace Git.Controllers
             return View();
         }
 
+        // This method is used to handle errors and return an error view with the request ID.
+
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
